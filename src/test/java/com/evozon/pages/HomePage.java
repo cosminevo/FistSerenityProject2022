@@ -6,7 +6,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("http://qa2magento.dev.evozon.com/")
-public class HomePage extends PageObject {
+public class HomePage extends BasePage {
 
     @FindBy(css = "a.skip-account")
     private WebElementFacade accountLink;

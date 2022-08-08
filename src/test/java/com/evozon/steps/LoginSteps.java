@@ -6,11 +6,7 @@ import com.evozon.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
-public class LoginSteps {
-
-    private HomePage homePage;
-    private LoginPage loginPage;
-    private AccountPage accountPage;
+public class LoginSteps extends BaseSteps{
 
     @Step
     public void navigateToHomepage() {

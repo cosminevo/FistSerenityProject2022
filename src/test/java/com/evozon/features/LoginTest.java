@@ -8,14 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-@RunWith(SerenityRunner.class)
-public class LoginTest {
-
-    @Managed(uniqueSession = true)
-    private WebDriver driver;
-
-    @Steps
-    private LoginSteps loginSteps;
+public class LoginTest extends BaseTest {
 
     @Test
     public void validLoginTest(){
